@@ -1,0 +1,18 @@
+version: "2"
+
+linters:
+  enable:
+    - errorlint
+    - gocritic
+    - gosec
+    - misspell
+    - modernize
+    - nolintlint
+    - paralleltest
+    - predeclared
+    - reassign
+    - unconvert
+
+formatters:
+  enable:
+    - gofumpt
